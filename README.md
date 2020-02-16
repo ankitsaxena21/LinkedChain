@@ -1,4 +1,6 @@
-# LinkedChain([Live Site](https://linkedchain.herokuapp.com/))
+# LinkedChain ([Live Site](https://linkedchain.herokuapp.com/))
+
+A decentralized Q/A application that runs on top of ethereum blockchain. 
 
 ## Getting Started
 
