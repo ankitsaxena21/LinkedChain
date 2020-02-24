@@ -15,30 +15,30 @@ class Navbar extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-        <h2>LinkedChain</h2>
+          <h2>LinkedChain</h2>
         </a>
         <table>
-        <tr>
-        <h5>
-        <th> <a href="#"><Button positive>GitHub Repo</Button></a></th>
-        </h5>
-        <th>
-        <ul className="navar-nav px-4">
-          <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
-              <h9><a class="nav-brand link">{this.props.account}</a></h9>
-            { this.props.account
-              ? <img
-                className='ml-2'
-                width='25'
-                height='25'
-                src={`data:image/png;base64,${new Identicon(this.props.account, 30).toString()}`}
-              />
-              : <span></span>
-            }
-          </li>
-        </ul>
-        </th>
-        </tr>
+          <tr>
+            <h5>
+              <th> <a href="https://github.com/ankitsaxena21/LinkedChain"><Button positive>GitHub Repo</Button></a></th>
+            </h5>
+            <th>
+              <ul className="navar-nav px-4">
+                <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
+                  <h9><a class="nav-brand link">{this.props.account}</a></h9>
+                  {this.props.account
+                    ? <img
+                      className='ml-2'
+                      width='25'
+                      height='25'
+                      src={`data:image/png;base64,${new Identicon(this.props.account, 30).toString()}`}
+                    />
+                    : <span></span>
+                  }
+                </li>
+              </ul>
+            </th>
+          </tr>
         </table>
       </nav>
 

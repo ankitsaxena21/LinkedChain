@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css'
 import App from './components/App';
-import { BrowserRouter as Router, NavLink} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
