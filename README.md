@@ -2,6 +2,8 @@
 
 A decentralized Q/A application that runs on top of ethereum blockchain. 
 
+![screenshot](https://github.com/ankitsaxena21/LinkedChain/blob/master/screenshot/1.png)
+
 ## Getting Started
 
 ### Prerequisites
